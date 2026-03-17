@@ -7,7 +7,7 @@ class Jogos extends Model {
     }
 
     BiggerThan() {
-        if (this.data_fim >= this.data_inicio) throw new Error("Data fim não pode ser maiior que data início")
+        if (this.data_fim < this.data_inicio) throw new Error("Data inicio não pode ser maior que data fim")
     }
 
 }
@@ -35,7 +35,7 @@ Jogos.init(
         },
 
         horas_jogadas: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.FLOAT,
             validate: {
                 validarPositivo() {
                     this.isPositive();

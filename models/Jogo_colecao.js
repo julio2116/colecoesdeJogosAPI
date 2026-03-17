@@ -19,11 +19,13 @@ Jogo_colecao.init(
         jogo_id: {
             type: DataTypes.INTEGER,
             unique: 'uk_jogo_colecao',
+            allowNull: false
         },
 
         colecao_id: {
             type: DataTypes.INTEGER,
             unique: 'uk_jogo_colecao',
+            allowNull: false
         },
 
     },
