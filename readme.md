@@ -304,3 +304,9 @@ await deletarJogoPorTitulo("Outer Wilds");
 
 ```
 ```
+
+## 📸 Provas do funcionamento
+
+<p align="center">
+  <img src="./public/terminal.png" width="800"/>
+</p>
