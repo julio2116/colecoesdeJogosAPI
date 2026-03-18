@@ -294,16 +294,12 @@ await deletarJogoPorTitulo("Outer Wilds");
 * Separação de responsabilidades (models, seeds, config)
 * Validação de dados no nível do model
 
-```
-```
 
 ## 📄 Referências
 
 * https://sequelize.org/docs/v6/core-concepts/model-querying-finders/
 * https://nodejs.org/en
 
-```
-```
 
 ## 📸 Provas do funcionamento
 
