@@ -38,7 +38,7 @@ npm install
 
 ### 3. Configurar variáveis de ambiente
 
-Crie um arquivo `.env` na raiz:
+Neste projeto simples e acadêmico, foi incluído um .env.sample com as configurações abaixo, mas basta remover .sample, para utilizar as configurações padrão:
 
 ```env
 USER=seu_usuario
